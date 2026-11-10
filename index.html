@@ -1,0 +1,69 @@
+<!-- Name: Your Name | Roll No: Your Roll Number | Section: Your Section -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Section: Centered Image & Name -->
+    <header class="header-container">
+        <div class="logo-box">
+            <img src="images/image.png" alt="Cafe Logo" class="cafe-pic">
+        </div>
+        <h1 class="cafe-name">Royal Velvet Café</h1>
+    </header>
+
+    <hr class="divider">
+
+    <!-- Bottom Section: Menu Table -->
+    <main class="menu-container">
+        <h2 class="menu-heading">Our Menu</h2>
+
+        <table class="menu-table">
+            <thead>
+                <tr>
+                    <th>Item Name</th>
+                    <th>Price</th>
+                    <th class="text-right">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Club Sandwich</td>
+                    <td>Rs. 450</td>
+                    <td class="text-right">
+                        <button class="order-btn" onclick="placeOrder('Club Sandwich')">Order</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cold Coffee</td>
+                    <td>Rs. 350</td>
+                    <td class="text-right">
+                        <button class="order-btn" onclick="placeOrder('Cold Coffee')">Order</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chocolate Brownie</td>
+                    <td>Rs. 250</td>
+                    <td class="text-right">
+                        <button class="order-btn" onclick="placeOrder('Chocolate Brownie')">Order</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <!-- JavaScript Interactivity -->
+    <script>
+        function placeOrder(itemName) {
+            console.log("Order button clicked for: " + itemName);
+            window.alert("Thank you! Your order for " + itemName + " has been placed.");
+        }
+    </script>
+
+</body>
+</html>
