@@ -1,0 +1,98 @@
+/* Page Colors & Font */
+body {
+    background-color: #FFFFFF; /* Crisp White Background */
+    color: #3B1F52;            /* Deep Royal Purple Text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Container: Centered Alignment */
+.header-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Centered Image Styling */
+.logo-box {
+    width: 100%;
+    text-align: center;
+}
+
+.cafe-pic {
+    width: 250px;             /* Image Width */
+    height: 180px;            /* Image Height */
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;          /* Centering Image Horizontally */
+}
+
+/* Cafe Name below Image */
+.cafe-name {
+    color: #7B2CBF;           /* Vibrant Violet Color */
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.divider {
+    border: none;
+    height: 2px;
+    background-color: #7B2CBF;
+    margin: 25px 0 30px 0;
+}
+
+/* Menu Layout */
+.menu-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-heading {
+    color: #7B2CBF;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Table Design */
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+.menu-table th, .menu-table td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #E0D4ED;
+}
+
+.menu-table th {
+    background-color: #F7F4FA;
+    color: #7B2CBF;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Order Button Styling */
+.order-btn {
+    background-color: #7B2CBF;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.order-btn:hover {
+    background-color: #3B1F52; /* Hover effect with Deep Purple */
+}
